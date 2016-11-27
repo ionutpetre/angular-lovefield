@@ -1,0 +1,23 @@
+{
+  "name": "angular-lovefield",
+  "version": "1.0.0",
+  "description": "Angular module upon Google's Lovefield relational database designated for web apps",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ionutpetre/angular-lovefield.git"
+  },
+  "keywords": [
+    "angular",
+    "lovefield"
+  ],
+  "author": "ionutpetre.ro@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ionutpetre/angular-lovefield/issues"
+  },
+  "homepage": "https://github.com/ionutpetre/angular-lovefield#readme",
+  "dependencies": {
+    "angular": "^1.5.9",
+    "lovefield": "^2.1.10"
+  }
+}

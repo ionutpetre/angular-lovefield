@@ -1,0 +1,24 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Angular Lovefield Demo</title>
+    <script src="../node_modules/angular/angular.min.js"></script>
+    <script src="../node_modules/lovefield/dist/lovefield.min.js"></script>
+    <script src="../dist/angular-lovefield.min.js"></script>
+    <script src="angular-lovefield-demo.js"></script>
+</head>
+
+<body ng-app="ngLovefieldDemo" ng-controller="ngLovefieldDemoCtrl" ng-init="initItems()">
+    <h1>Angular Lovefield Demo</h1>
+    <input type="text" ng-model="myItem.text">
+    <button ng-click="createMyItem()">Create my item</button>
+    <ul>
+        <li ng-repeat="item in myItems">
+            {{item}}
+        </li>
+    </ul>
+</body>
+
+</html>
